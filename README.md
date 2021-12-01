@@ -5,7 +5,8 @@ Laravel Html Parser
 [![Coverage Status](https://coveralls.io/repos/paquettg/php-html-parser/badge.png)](https://coveralls.io/r/seyyedam7/laravel-html-parser)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/seyyedam7/laravel-html-parser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/seyyedam7/laravel-html-parser/?branch=master)
 
-This package forked from https://github.com/paquettg/php-html-parser and configed for laravel 8
+This package forked from https://github.com/paquettg/php-html-parser and configed for laravel 8.
+
 LaravelHtmlParser is a simple, flexible, html parser which allows you to select tags using any css selector, like jQuery. The goal is to assist in the development of tools which require a quick, easy way to scrap html, whether it's valid or not!
 
 Install
