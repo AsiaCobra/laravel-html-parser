@@ -26,7 +26,6 @@ You can find many examples of how to use the DOM parser and any of its parts (wh
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 $dom = new Dom;
@@ -51,7 +50,6 @@ You may also seamlessly load a file into the DOM instead of a string, which is m
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 $dom = new Dom;
@@ -82,7 +80,6 @@ Loading a URL is very similar to the way you would load the HTML from a file.
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 $dom = new Dom;
@@ -98,7 +95,6 @@ loadFromUrl will, by default, use an implementation of the `\Psr\Http\Client\Cli
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 use App\Services\MyClient;
 
@@ -116,7 +112,6 @@ Loading a string directly is also easily done.
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 $dom = new Dom;
@@ -131,7 +126,6 @@ You can also set parsing option that will effect the behavior of the parsing eng
 
 ```php
 // Assuming you installed from Composer:
-require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 use PHPHtmlParser\Options;
 
